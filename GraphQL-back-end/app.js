@@ -4,7 +4,7 @@ const schema = require('./schema/schema')
 const mongoose = require('mongoose')
 
 const app = express();
-const mongoDbUrl = "mongodb+srv://root:OPYaDYqfmRtLjAPS@gql-ninja.lka2n.mongodb.net/<dbname>?retryWrites=true&w=majority"
+const mongoDbUrl = ""
 
 mongoose.connect(
     mongoDbUrl, {
